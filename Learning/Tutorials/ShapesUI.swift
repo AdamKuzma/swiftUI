@@ -1,5 +1,5 @@
 //
-//  ShapesSample.swift
+//  ShapesUI.swift
 //  Learning
 //
 //  Created by Adam Kuzma on 8/20/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ShapesSample: View {
+struct ShapesUI: View {
     var body: some View {
         //Circle()
         //Rectangle()
@@ -23,8 +23,8 @@ struct ShapesSample: View {
     }
 }
 
-struct ShapesSample_Previews: PreviewProvider {
+struct ShapesUI_Previews: PreviewProvider {
     static var previews: some View {
-        ShapesSample()
+        ShapesUI()
     }
 }

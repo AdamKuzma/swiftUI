@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		666A23CA2C7A4E2800C66FCE /* NavigationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A23C92C7A4E2800C66FCE /* NavigationUI.swift */; };
+		666A23CC2C7A57FC00C66FCE /* GridsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A23CB2C7A57FC00C66FCE /* GridsUI.swift */; };
+		666A23D02C7A650C00C66FCE /* ProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A23CF2C7A650C00C66FCE /* ProjectRow.swift */; };
 		669209F92C755E2900E82C12 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669209F82C755E2900E82C12 /* LearningApp.swift */; };
 		669209FB2C755E2900E82C12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669209FA2C755E2900E82C12 /* ContentView.swift */; };
 		669209FD2C755E2B00E82C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669209FC2C755E2B00E82C12 /* Assets.xcassets */; };
@@ -15,10 +17,10 @@
 		66920A0A2C755E2B00E82C12 /* LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A092C755E2B00E82C12 /* LearningTests.swift */; };
 		66920A142C755E2B00E82C12 /* LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A132C755E2B00E82C12 /* LearningUITests.swift */; };
 		66920A162C755E2B00E82C12 /* LearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A152C755E2B00E82C12 /* LearningUITestsLaunchTests.swift */; };
-		66920A252C756A5200E82C12 /* TextSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A242C756A5200E82C12 /* TextSample.swift */; };
-		66920A272C756F3500E82C12 /* ShapesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A262C756F3500E82C12 /* ShapesSample.swift */; };
-		66920A292C7572A300E82C12 /* ColorsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A282C7572A300E82C12 /* ColorsSample.swift */; };
-		66920A2B2C76AA6500E82C12 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A2A2C76AA6500E82C12 /* Frames.swift */; };
+		66920A252C756A5200E82C12 /* TextUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A242C756A5200E82C12 /* TextUI.swift */; };
+		66920A272C756F3500E82C12 /* ShapesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A262C756F3500E82C12 /* ShapesUI.swift */; };
+		66920A292C7572A300E82C12 /* ColorsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A282C7572A300E82C12 /* ColorsUI.swift */; };
+		66920A2B2C76AA6500E82C12 /* FramesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A2A2C76AA6500E82C12 /* FramesUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		666A23C92C7A4E2800C66FCE /* NavigationUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUI.swift; sourceTree = "<group>"; };
+		666A23CB2C7A57FC00C66FCE /* GridsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsUI.swift; sourceTree = "<group>"; };
+		666A23CF2C7A650C00C66FCE /* ProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRow.swift; sourceTree = "<group>"; };
 		669209F52C755E2900E82C12 /* Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669209F82C755E2900E82C12 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		669209FA2C755E2900E82C12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,10 +54,10 @@
 		66920A0F2C755E2B00E82C12 /* LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66920A132C755E2B00E82C12 /* LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningUITests.swift; sourceTree = "<group>"; };
 		66920A152C755E2B00E82C12 /* LearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		66920A242C756A5200E82C12 /* TextSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSample.swift; sourceTree = "<group>"; };
-		66920A262C756F3500E82C12 /* ShapesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesSample.swift; sourceTree = "<group>"; };
-		66920A282C7572A300E82C12 /* ColorsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsSample.swift; sourceTree = "<group>"; };
-		66920A2A2C76AA6500E82C12 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
+		66920A242C756A5200E82C12 /* TextUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUI.swift; sourceTree = "<group>"; };
+		66920A262C756F3500E82C12 /* ShapesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesUI.swift; sourceTree = "<group>"; };
+		66920A282C7572A300E82C12 /* ColorsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUI.swift; sourceTree = "<group>"; };
+		66920A2A2C76AA6500E82C12 /* FramesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +88,12 @@
 		666A23C72C7A4DA500C66FCE /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
-				66920A242C756A5200E82C12 /* TextSample.swift */,
+				66920A242C756A5200E82C12 /* TextUI.swift */,
+				666A23CB2C7A57FC00C66FCE /* GridsUI.swift */,
 				666A23C92C7A4E2800C66FCE /* NavigationUI.swift */,
-				66920A2A2C76AA6500E82C12 /* Frames.swift */,
-				66920A262C756F3500E82C12 /* ShapesSample.swift */,
-				66920A282C7572A300E82C12 /* ColorsSample.swift */,
+				66920A2A2C76AA6500E82C12 /* FramesUI.swift */,
+				66920A262C756F3500E82C12 /* ShapesUI.swift */,
+				66920A282C7572A300E82C12 /* ColorsUI.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			children = (
 				669209F82C755E2900E82C12 /* LearningApp.swift */,
 				669209FA2C755E2900E82C12 /* ContentView.swift */,
+				666A23CF2C7A650C00C66FCE /* ProjectRow.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -289,12 +295,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				669209FB2C755E2900E82C12 /* ContentView.swift in Sources */,
-				66920A252C756A5200E82C12 /* TextSample.swift in Sources */,
+				66920A252C756A5200E82C12 /* TextUI.swift in Sources */,
 				666A23CA2C7A4E2800C66FCE /* NavigationUI.swift in Sources */,
-				66920A292C7572A300E82C12 /* ColorsSample.swift in Sources */,
+				66920A292C7572A300E82C12 /* ColorsUI.swift in Sources */,
 				669209F92C755E2900E82C12 /* LearningApp.swift in Sources */,
-				66920A272C756F3500E82C12 /* ShapesSample.swift in Sources */,
-				66920A2B2C76AA6500E82C12 /* Frames.swift in Sources */,
+				66920A272C756F3500E82C12 /* ShapesUI.swift in Sources */,
+				666A23D02C7A650C00C66FCE /* ProjectRow.swift in Sources */,
+				66920A2B2C76AA6500E82C12 /* FramesUI.swift in Sources */,
+				666A23CC2C7A57FC00C66FCE /* GridsUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

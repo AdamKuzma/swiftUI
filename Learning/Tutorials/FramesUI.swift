@@ -1,5 +1,5 @@
 //
-//  Frames.swift
+//  FramesUI.swift
 //  Learning
 //
 //  Created by Adam Kuzma on 8/21/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Frames: View {
+struct FramesUI: View {
     var body: some View {
         HStack {
             Image(systemName: "star")
@@ -28,8 +28,8 @@ struct Frames: View {
     }
 }
 
-struct Frames_Previews: PreviewProvider {
+struct FramesUI_Previews: PreviewProvider {
     static var previews: some View {
-        Frames()
+        FramesUI()
     }
 }

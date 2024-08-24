@@ -1,5 +1,5 @@
 //
-//  ColorsSample.swift
+//  ColorsUI.swift
 //  Learning
 //
 //  Created by Adam Kuzma on 8/20/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ColorsSample: View {
+struct ColorsUI: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25.0)
             .fill(
@@ -19,8 +19,8 @@ struct ColorsSample: View {
     }
 }
 
-struct ColorsSample_Previews: PreviewProvider {
+struct ColorsUI_Previews: PreviewProvider {
     static var previews: some View {
-        ColorsSample()
+        ColorsUI()
     }
 }
