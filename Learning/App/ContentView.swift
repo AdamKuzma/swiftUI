@@ -33,6 +33,8 @@ struct ContentView: View {
                 Divider()
                 ProjectRow(number: "72", title: "Color Picker", destination: AnyView(ColorPickerUI()))
                 Divider()
+                ProjectRow(number: "90", title: "Ripple", destination: AnyView(RippleUI()))
+                Divider()
                 
             }
             .navigationTitle("All Projects")

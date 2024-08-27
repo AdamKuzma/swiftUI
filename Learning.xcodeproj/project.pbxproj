@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66205B5F2C7D3DE00098A76D /* MapUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66205B5E2C7D3DE00098A76D /* MapUI.swift */; };
 		666A23CA2C7A4E2800C66FCE /* NavigationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A23C92C7A4E2800C66FCE /* NavigationUI.swift */; };
 		666A23CC2C7A57FC00C66FCE /* GridsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A23CB2C7A57FC00C66FCE /* GridsUI.swift */; };
 		666A23D02C7A650C00C66FCE /* ProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A23CF2C7A650C00C66FCE /* ProjectRow.swift */; };
@@ -25,6 +26,10 @@
 		66920A272C756F3500E82C12 /* ShapesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A262C756F3500E82C12 /* ShapesUI.swift */; };
 		66920A292C7572A300E82C12 /* ColorsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A282C7572A300E82C12 /* ColorsUI.swift */; };
 		66920A2B2C76AA6500E82C12 /* FramesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66920A2A2C76AA6500E82C12 /* FramesUI.swift */; };
+		66E398052C7D48F100450267 /* ShaderUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E398042C7D48F100450267 /* ShaderUI.swift */; };
+		66E398072C7D4C1900450267 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 66E398062C7D4C1900450267 /* Shader.metal */; };
+		66E398092C7DFC1200450267 /* RippleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E398082C7DFC1200450267 /* RippleUI.swift */; };
+		66E3980B2C7DFC2300450267 /* Ripple.metal in Sources */ = {isa = PBXBuildFile; fileRef = 66E3980A2C7DFC2300450267 /* Ripple.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66205B5E2C7D3DE00098A76D /* MapUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUI.swift; sourceTree = "<group>"; };
 		666A23C92C7A4E2800C66FCE /* NavigationUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUI.swift; sourceTree = "<group>"; };
 		666A23CB2C7A57FC00C66FCE /* GridsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsUI.swift; sourceTree = "<group>"; };
 		666A23CF2C7A650C00C66FCE /* ProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRow.swift; sourceTree = "<group>"; };
@@ -66,6 +72,10 @@
 		66920A262C756F3500E82C12 /* ShapesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesUI.swift; sourceTree = "<group>"; };
 		66920A282C7572A300E82C12 /* ColorsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUI.swift; sourceTree = "<group>"; };
 		66920A2A2C76AA6500E82C12 /* FramesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesUI.swift; sourceTree = "<group>"; };
+		66E398042C7D48F100450267 /* ShaderUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderUI.swift; sourceTree = "<group>"; };
+		66E398062C7D4C1900450267 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		66E398082C7DFC1200450267 /* RippleUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleUI.swift; sourceTree = "<group>"; };
+		66E3980A2C7DFC2300450267 /* Ripple.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Ripple.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 			children = (
 				66920A242C756A5200E82C12 /* TextUI.swift */,
 				666A23CB2C7A57FC00C66FCE /* GridsUI.swift */,
+				66205B5E2C7D3DE00098A76D /* MapUI.swift */,
+				66E398082C7DFC1200450267 /* RippleUI.swift */,
+				66E3980A2C7DFC2300450267 /* Ripple.metal */,
+				66E398042C7D48F100450267 /* ShaderUI.swift */,
+				66E398062C7D4C1900450267 /* Shader.metal */,
 				666A23C92C7A4E2800C66FCE /* NavigationUI.swift */,
 				666A23D12C7A759C00C66FCE /* TransitionsUI.swift */,
 				666A23D72C7A99DD00C66FCE /* ColorPickerUI.swift */,
@@ -310,14 +325,19 @@
 				666A23D82C7A99DD00C66FCE /* ColorPickerUI.swift in Sources */,
 				66920A252C756A5200E82C12 /* TextUI.swift in Sources */,
 				666A23CA2C7A4E2800C66FCE /* NavigationUI.swift in Sources */,
+				66E398072C7D4C1900450267 /* Shader.metal in Sources */,
 				66920A292C7572A300E82C12 /* ColorsUI.swift in Sources */,
 				666A23D22C7A759C00C66FCE /* TransitionsUI.swift in Sources */,
+				66E3980B2C7DFC2300450267 /* Ripple.metal in Sources */,
 				666A23D42C7A79CA00C66FCE /* SheetsUI.swift in Sources */,
 				669209F92C755E2900E82C12 /* LearningApp.swift in Sources */,
 				66920A272C756F3500E82C12 /* ShapesUI.swift in Sources */,
 				666A23D02C7A650C00C66FCE /* ProjectRow.swift in Sources */,
+				66205B5F2C7D3DE00098A76D /* MapUI.swift in Sources */,
 				66920A2B2C76AA6500E82C12 /* FramesUI.swift in Sources */,
+				66E398052C7D48F100450267 /* ShaderUI.swift in Sources */,
 				666A23CC2C7A57FC00C66FCE /* GridsUI.swift in Sources */,
+				66E398092C7DFC1200450267 /* RippleUI.swift in Sources */,
 				666A23D62C7A8DE700C66FCE /* DraggableUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -461,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -490,7 +510,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,7 +543,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +566,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LK8M3QQF58;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Swift.LearningTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -566,7 +586,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LK8M3QQF58;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Swift.LearningTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -586,6 +606,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LK8M3QQF58;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Swift.LearningUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -605,6 +626,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LK8M3QQF58;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Swift.LearningUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
